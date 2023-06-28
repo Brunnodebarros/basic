@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elf Agency - Editora de livros Fantasy</title>
+<!-- Fonte -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!--Scripts-->
+ <script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+<!-- Parallax -->
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                <a href="index.html" class="navbar-brand">
+                    <img id="logo" src="img/Logof.png" alt="Elf Agency"> Elf Agency Editora de livros
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-links">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="agencia.html" class="nav-item nav-link" id="about-menu">A agência</a>
+                        <a href="produto.html" class="nav-item nav-link" id="services-menu">Produto</a>
+                        <a href="projetos autorais.html" class="nav-item nav-link" id="portfolio-menu">Adaptação</a>
+                        <a href="trabalhe conosco.html" class="nav-item nav-link" id="team-menu">Trabalhe conosco</a>
+                        <a href="orçamento.html" class="nav-item nav-link" id="budget-menu">Orçamento</a>
+                        <a href="contato.html" class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <br>
+            <br>
+            <br>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Trabalhe Conosco</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/agencia.jpg" alt="agenciaelf">
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Vagas disponíveis:</h5>
+                            <ul style="list-style: none;">
+                                <li>
+                                    <br>
+                                    <input type="checkbox" id="editor-chefe">
+                                    <label for="editor-chefe">Editor Chefe (2 vagas)</label>
+                                    <div class="job-description hidden">
+                                        <h5>Editor Chefe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Fusce feugiat libero eu orci aliquet, non consectetur urna tristique.
+                                            Integer in mauris mauris. In scelerisque est eu mauris pulvinar molestie.
+                                        </p>
+                                        <p>Atribuições:</p>
+                                        <ul>
+                                            <li>Planejar e coordenar o processo de criação e edição de conteúdo.</li>
+                                            <li>Revisar e garantir a qualidade e consistência dos materiais produzidos.</li>
+                                            <li>Gerenciar uma equipe de redatores e editores, atribuindo tarefas e orientando-os.</li>
+                                            <li>Pesquisar e analisar tendências de mercado para desenvolver estratégias de conteúdo.</li>
+                                            <li>Colaborar com outros departamentos para alinhar o conteúdo com os objetivos da empresa.</li>
+                                            <li>Monitorar e avaliar o desempenho do conteúdo, realizando ajustes e melhorias quando necessário.</li>
+                                        </ul>
+                                        <div class="apply-box">
+                                            <p>Envie seu currículo:</p>
+                                            <input type="file" id="curriculo-2" accept=".pdf,.doc,.docx">
+                                            <button class="apply-btn" id="enviar-2" disabled >Enviar Currículo</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <br>
+                                    <input type="checkbox" id="suporte">
+                                    <label for="suporte">Suporte (10 vagas)</label>
+                                    <div class="job-description hidden">
+                                        <h5>Suporte</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Fusce feugiat libero eu orci aliquet, non consectetur urna tristique.
+                                            Integer in mauris mauris. In scelerisque est eu mauris pulvinar molestie.
+                                        </p>
+                                        <p>Atribuições:</p>
+                                        <ul>
+                                            <li>Prestar suporte técnico e atendimento aos clientes, solucionando dúvidas e problemas.1</li>
+                                            <li>Registrar e documentar todas as interações com os clientes em um sistema de atendimento.</li>
+                                            <li>Identificar e analisar padrões e tendências de problemas relatados pelos clientes.</li>
+                                            <li>Colaborar com as equipes de desenvolvimento e qualidade para resolver questões técnicas.</li>
+                                            <li>Fornecer treinamento e orientação aos clientes sobre o uso adequado dos produtos ou serviços.</li>
+                                            <li>Manter-se atualizado sobre os produtos e serviços da empresa para fornecer informações precisas aos clientes.</li>
+                                        </ul>
+                                        <div class="apply-box">
+                                            <p>Envie seu currículo:</p>
+                                            <input type="file" id="curriculo-2" accept=".pdf,.doc,.docx">
+                                            <button class="apply-btn" id="enviar-2" disabled >Enviar Currículo</button>
+                                        </div>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </li>
+                                <li>
+                                    <br>
+                                    <input type="checkbox" id="marketing">
+                                    <label for="marketing">Marketing (5 vagas)</label>
+                                    <div class="job-description hidden">
+                                        <h5>Marketing</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Fusce feugiat libero eu orci aliquet, non consectetur urna tristique.
+                                            Integer in mauris mauris. In scelerisque est eu mauris pulvinar molestie.
+                                        </p>
+                                        <p>Atribuições:</p>
+                                        <ul>
+                                            <li>Desenvolver e implementar estratégias de marketing para promover os produtos ou serviços da empresa.</li>
+                                            <li>Realizar pesquisas de mercado e análise de concorrência para identificar oportunidades.</li>
+                                            <li>Criar campanhas de marketing online e offline, incluindo mídias sociais, e-mail marketing, anúncios etc.</li>
+                                            <li>Monitorar e analisar o desempenho das campanhas de marketing, ajustando-as conforme necessário.</li>
+                                            <li>Colaborar com equipes internas e externas, como designers e agências, para desenvolver materiais de marketing.</li>
+                                            <li>Acompanhar as tendências do mercado e as melhores práticas de marketing para manter-se atualizado.</li>
+                                        </ul>
+                                        <div class="apply-box">
+                                            <p>Envie seu currículo:</p>
+                                            <input type="file" id="curriculo-2" accept=".pdf,.doc,.docx">
+                                            <button class="apply-btn" id="enviar-2" disabled >Enviar Currículo</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <br>
+                                    <input type="checkbox" id="revisor">
+                                    <label for="revisor">Revisor (3 vagas)</label>
+                                    <div class="job-description hidden">
+                                        <h5>Revisor</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Fusce feugiat libero eu orci aliquet, non consectetur urna tristique.
+                                            Integer in mauris mauris. In scelerisque est eu mauris pulvinar molestie.
+                                        </p>
+                                        <p>Atribuições:</p>
+                                        <ul>
+                                            <li>Revisar e corrigir erros gramaticais, ortográficos e de estilo em textos e documentos.</li>
+                                            <li>Garantir a consistência e a clareza do conteúdo, ajustando a redação conforme necessário.</li>
+                                            <li>Verificar a precisão das informações e a adequação do texto ao público-alvo.</li>
+                                            <li>Colaborar com os escritores e editores para aprimorar a qualidade e a coesão do conteúdo.</li>
+                                            <li>Seguir diretrizes de estilo e padrões editoriais estabelecidos pela empresa.</li>
+                                            <li>Realizar pesquisas e consultas para esclarecer informações e garantir a precisão dos textos.</li>
+                                        </ul>
+                                        <div class="apply-box">
+                                            <p>Envie seu currículo:</p>
+                                            <input type="file" id="curriculo-2" accept=".pdf,.doc,.docx">
+                                            <button class="apply-btn" id="enviar-2" disabled >Enviar Currículo</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</body>
+</html>

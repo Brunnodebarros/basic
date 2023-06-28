@@ -1,0 +1,240 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+header, .navbar {
+    background-color: lightpink;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #333333;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #333333;
+}
+
+#navbar-links a {
+    color: #333333;
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 0.8rem;
+}
+
+/* Slider */
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+    height: auto;
+    filter: brightness(0.7);
+}
+
+
+
+#mainSlide .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-btn {
+    background-color: #65daf9;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #65daf9;
+    color: #65daf9;
+}
+
+.carousel-indicators .active {
+    background-color: #65daf9;
+}
+
+/* Sobre a empresa */
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Serviço */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i,
+.service-box h4 {
+    transition: 0.5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i,
+.service-box:hover > h4 {
+    color: #65daf9;
+}
+
+.d-block {
+    filter: brightness(50%);
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 5px solid rgb(101, 218, 249);
+}
+
+.services-a {
+    background-image: url('img/livros.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.job-description.hidden {
+    display: none;
+}
+
+.job-description.visible {
+    display: block;
+}
+
+.send-cv {
+    display: none;
+}
+
+input[type="checkbox"]:checked + label + .job-description {
+    display: block;
+}
+
+input[type="checkbox"]:checked + label + .job-description .send-cv {
+    display: block;
+}
+
+.send-cv {
+    border-bottom: 5px solid #fff;
+}
+
+input[type="checkbox"] {
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.list-inline-item a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.list-inline-item a i {
+    font-size: 1.5rem;
+}
+
+.col-contato {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 5%;
+}
+
+.gradient-container.container {
+    background: linear-gradient(to bottom, #fee3e8, #f69ca9);
+}
+
+#navbar .navbar-nav  {
+    background: linear-gradient(#8d0303, #ae0707);
+    background-clip: text;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
